@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
-    <string name="cm_application_name" translatable="false">Trebuchet (LiteracyApp)</string>
+    <string name="cm_application_name" translatable="false">Trebuchet</string>
     
     <string name="application_name" translatable="true">Launcher3</string>
     
