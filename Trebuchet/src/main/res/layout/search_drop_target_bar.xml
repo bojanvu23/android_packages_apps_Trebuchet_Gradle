@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2011 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +16,7 @@
 <com.android.launcher3.SearchDropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusable="false" >
+    android:focusable="false">
 
     <!-- Drag specific targets container -->
 
@@ -25,11 +24,11 @@
         android:id="@+id/drag_target_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center" >
+        android:layout_gravity="center">
 
         <FrameLayout
             style="@style/DropTargetButtonContainer"
-            android:layout_weight="1" >
+            android:layout_weight="1">
 
             <!-- Delete target -->
 
@@ -41,26 +40,30 @@
 
         <FrameLayout
             style="@style/DropTargetButtonContainer"
-            android:layout_weight="1" >
+            android:layout_weight="1"
+            android:visibility="gone">
 
             <!-- Info target -->
 
             <com.android.launcher3.InfoDropTarget
                 android:id="@+id/info_target_text"
                 style="@style/DropTargetButton"
-                android:text="@string/info_target_label" />
+                android:text="@string/info_target_label"
+                android:visibility="gone" />
         </FrameLayout>
 
         <FrameLayout
             style="@style/DropTargetButtonContainer"
-            android:layout_weight="1" >
+            android:layout_weight="1"
+            android:visibility="gone">
 
             <!-- Uninstall target -->
 
             <com.android.launcher3.UninstallDropTarget
                 android:id="@+id/uninstall_target_text"
                 style="@style/DropTargetButton"
-                android:text="@string/delete_target_uninstall_label" />
+                android:text="@string/delete_target_uninstall_label"
+                android:visibility="gone" />
         </FrameLayout>
     </LinearLayout>
 

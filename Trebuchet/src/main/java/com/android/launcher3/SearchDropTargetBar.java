@@ -34,11 +34,13 @@ import com.android.launcher3.util.Thunk;
  */
 public class SearchDropTargetBar extends FrameLayout implements DragController.DragListener {
 
-    /** The different states that the search bar space can be in. */
+    /**
+     * The different states that the search bar space can be in.
+     */
     public enum State {
-        INVISIBLE   (0f, 0f),
-        SEARCH_BAR  (1f, 0f),
-        DROP_TARGET (0f, 1f);
+        INVISIBLE(0f, 0f),
+        SEARCH_BAR(1f, 0f),
+        DROP_TARGET(0f, 1f);
 
         private final float mSearchBarAlpha;
         private final float mDropTargetBarAlpha;
@@ -66,15 +68,20 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
 
     private Launcher mLauncher;
     private State mState = State.SEARCH_BAR;
-    @Thunk View mQSB;
-    @Thunk View mDropTargetBar;
+    @Thunk
+    View mQSB;
+    @Thunk
+    View mDropTargetBar;
     private boolean mDeferOnDragEnd = false;
-    @Thunk boolean mAccessibilityEnabled = false;
+    @Thunk
+    boolean mAccessibilityEnabled = false;
 
     // Drop targets
-    private ButtonDropTarget mInfoDropTarget;
     private ButtonDropTarget mDeleteDropTarget;
+    //Disable drag/drop uninstall and app info features
     private ButtonDropTarget mUninstallDropTarget;
+    private ButtonDropTarget mInfoDropTarget;
+
 
     public SearchDropTargetBar(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
@@ -90,17 +97,18 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
         dragController.addDragListener(this);
         dragController.setFlingToDeleteDropTarget(mDeleteDropTarget);
 
-        dragController.addDragListener(mInfoDropTarget);
         dragController.addDragListener(mDeleteDropTarget);
-        dragController.addDragListener(mUninstallDropTarget);
-
-        dragController.addDropTarget(mInfoDropTarget);
         dragController.addDropTarget(mDeleteDropTarget);
-        dragController.addDropTarget(mUninstallDropTarget);
-
-        mInfoDropTarget.setLauncher(launcher);
         mDeleteDropTarget.setLauncher(launcher);
-        mUninstallDropTarget.setLauncher(launcher);
+
+        //Disable drag/drop uninstall and app info features
+
+        //dragController.addDragListener(mInfoDropTarget);
+        //dragController.addDragListener(mUninstallDropTarget);
+        //dragController.addDropTarget(mInfoDropTarget);
+        //dragController.addDropTarget(mUninstallDropTarget);
+        //mInfoDropTarget.setLauncher(launcher);
+        //mUninstallDropTarget.setLauncher(launcher);
     }
 
     @Override
@@ -113,9 +121,13 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
         mDeleteDropTarget = (ButtonDropTarget) mDropTargetBar.findViewById(R.id.delete_target_text);
         mUninstallDropTarget = (ButtonDropTarget) mDropTargetBar.findViewById(R.id.uninstall_target_text);
 
-        mInfoDropTarget.setSearchDropTargetBar(this);
         mDeleteDropTarget.setSearchDropTargetBar(this);
-        mUninstallDropTarget.setSearchDropTargetBar(this);
+
+        //Disable drag/drop uninstall and app info features
+        mInfoDropTarget.setVisibility(View.GONE);
+        mUninstallDropTarget.setVisibility(View.GONE);
+        //mInfoDropTarget.setSearchDropTargetBar(this);
+        //mUninstallDropTarget.setSearchDropTargetBar(this);
 
         // Create the various fade animations
         mDropTargetBar.setAlpha(0f);
@@ -204,7 +216,7 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
      * Convenience method to animate the alpha of a view using hardware layers.
      */
     private void animateViewAlpha(LauncherViewPropertyAnimator animator, View v, float alpha,
-            int duration) {
+                                  int duration) {
         if (v == null) {
             return;
         }
@@ -275,8 +287,11 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
         if (mQSB != null && isSearchBarVisible()) {
             mQSB.setVisibility(enable ? View.GONE : View.VISIBLE);
         }
-        mInfoDropTarget.enableAccessibleDrag(enable);
+
         mDeleteDropTarget.enableAccessibleDrag(enable);
-        mUninstallDropTarget.enableAccessibleDrag(enable);
+
+        //Disable drag/drop uninstall and app info features
+        //mInfoDropTarget.enableAccessibleDrag(enable);
+        //mUninstallDropTarget.enableAccessibleDrag(enable);
     }
 }
