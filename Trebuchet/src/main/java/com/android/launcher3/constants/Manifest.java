@@ -1,4 +1,4 @@
-package com.android.launcher3.constants;
+package com.literacyapp.android.launcher3.constants;
 
 /**
  * Created by lcg on 16-5-3.

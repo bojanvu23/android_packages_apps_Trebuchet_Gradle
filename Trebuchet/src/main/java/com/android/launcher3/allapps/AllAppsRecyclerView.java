@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.literacyapp.android.launcher3.allapps;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,13 +25,13 @@ import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusApplicator;
-import com.android.launcher3.R;
-import com.android.launcher3.Stats;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.BaseRecyclerView;
+import com.literacyapp.android.launcher3.DeviceProfile;
+import com.literacyapp.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusApplicator;
+import com.literacyapp.android.launcher3.R;
+import com.literacyapp.android.launcher3.Stats;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.List;

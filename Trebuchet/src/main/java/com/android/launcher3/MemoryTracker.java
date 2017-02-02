@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.app.ActivityManager;
 import android.app.Service;
@@ -29,7 +29,7 @@ import java.util.List;
 
 public class MemoryTracker extends Service {
     public static final String TAG = MemoryTracker.class.getSimpleName();
-    public static final String ACTION_START_TRACKING = "com.android.launcher3.action.START_TRACKING";
+    public static final String ACTION_START_TRACKING = "com.literacyapp.android.launcher3.action.START_TRACKING";
 
     private static final long UPDATE_RATE = 5000;
 

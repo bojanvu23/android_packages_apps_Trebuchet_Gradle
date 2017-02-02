@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.list;
+package com.literacyapp.android.launcher3.list;
 
 import android.content.Context;
 import android.graphics.Canvas;

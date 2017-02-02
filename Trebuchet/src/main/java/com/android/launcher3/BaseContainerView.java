@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -25,7 +25,7 @@ import android.view.ViewStub;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
 
 /**
  * A base container view, which supports resizing.

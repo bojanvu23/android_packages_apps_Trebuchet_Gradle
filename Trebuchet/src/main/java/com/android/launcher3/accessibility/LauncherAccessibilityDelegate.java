@@ -1,4 +1,4 @@
-package com.android.launcher3.accessibility;
+package com.literacyapp.android.launcher3.accessibility;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
@@ -16,27 +16,27 @@ import android.view.View.AccessibilityDelegate;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DragController.DragListener;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.Folder;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InfoDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetHostView;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.UninstallDropTarget;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.AppInfo;
+import com.literacyapp.android.launcher3.AppWidgetResizeFrame;
+import com.literacyapp.android.launcher3.CellLayout;
+import com.literacyapp.android.launcher3.DeleteDropTarget;
+import com.literacyapp.android.launcher3.DragController.DragListener;
+import com.literacyapp.android.launcher3.DragSource;
+import com.literacyapp.android.launcher3.Folder;
+import com.literacyapp.android.launcher3.FolderInfo;
+import com.literacyapp.android.launcher3.InfoDropTarget;
+import com.literacyapp.android.launcher3.ItemInfo;
+import com.literacyapp.android.launcher3.Launcher;
+import com.literacyapp.android.launcher3.LauncherAppWidgetHostView;
+import com.literacyapp.android.launcher3.LauncherAppWidgetInfo;
+import com.literacyapp.android.launcher3.LauncherModel;
+import com.literacyapp.android.launcher3.LauncherSettings;
+import com.literacyapp.android.launcher3.PendingAddItemInfo;
+import com.literacyapp.android.launcher3.R;
+import com.literacyapp.android.launcher3.ShortcutInfo;
+import com.literacyapp.android.launcher3.UninstallDropTarget;
+import com.literacyapp.android.launcher3.Workspace;
+import com.literacyapp.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.literacyapp.android.launcher3.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,9 +23,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetsModel;
+import com.literacyapp.android.launcher3.BaseRecyclerView;
+import com.literacyapp.android.launcher3.model.PackageItemInfo;
+import com.literacyapp.android.launcher3.model.WidgetsModel;
 
 import java.util.ArrayList;
 

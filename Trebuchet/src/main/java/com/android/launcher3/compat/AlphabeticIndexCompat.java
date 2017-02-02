@@ -1,7 +1,7 @@
-package com.android.launcher3.compat;
+package com.literacyapp.android.launcher3.compat;
 
 import android.content.Context;
-import com.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.Utilities;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

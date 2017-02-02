@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.android.launcher3.stats.internal.model;
+package com.literacyapp.android.launcher3.stats.internal.model;
 
 import android.os.Bundle;
 
@@ -35,7 +35,7 @@ public interface ITrackingAction {
      * Creates a new bundle used to tracking events
      *
      * @param trackingId {@link String}
-     * @param category {@link com.android.launcher3.stats.internal.model.TrackingEvent.Category}
+     * @param category {@link com.literacyapp.android.launcher3.stats.internal.model.TrackingEvent.Category}
      * @param eventList {@link List}
      * @return {@link List}
      */

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.BackupDataInput;
@@ -24,7 +24,7 @@ import android.database.Cursor;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import com.android.launcher3.model.MigrateFromRestoreTask;
+import com.literacyapp.android.launcher3.model.MigrateFromRestoreTask;
 
 import java.io.IOException;
 

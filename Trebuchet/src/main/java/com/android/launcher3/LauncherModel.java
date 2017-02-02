@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.app.SearchManager;
 import android.appwidget.AppWidgetManager;
@@ -49,22 +49,22 @@ import android.util.Log;
 import android.util.LongSparseArray;
 import android.util.Pair;
 
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherActivityInfoCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.model.MigrateFromRestoreTask;
-import com.android.launcher3.model.WidgetsModel;
-import com.android.launcher3.settings.SettingsProvider;
-import com.android.launcher3.stats.internal.service.AggregationIntentService;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.CursorIconInfo;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.ManagedProfileHeuristic;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.compat.AppWidgetManagerCompat;
+import com.literacyapp.android.launcher3.compat.LauncherActivityInfoCompat;
+import com.literacyapp.android.launcher3.compat.LauncherAppsCompat;
+import com.literacyapp.android.launcher3.compat.PackageInstallerCompat;
+import com.literacyapp.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.compat.UserManagerCompat;
+import com.literacyapp.android.launcher3.model.MigrateFromRestoreTask;
+import com.literacyapp.android.launcher3.model.WidgetsModel;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.stats.internal.service.AggregationIntentService;
+import com.literacyapp.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.util.CursorIconInfo;
+import com.literacyapp.android.launcher3.util.LongArrayMap;
+import com.literacyapp.android.launcher3.util.ManagedProfileHeuristic;
+import com.literacyapp.android.launcher3.util.Thunk;
 
 import java.lang.ref.WeakReference;
 import java.net.URISyntaxException;

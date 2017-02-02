@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.launcher3.allapps.AllAppsSearchBarController;
-import com.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.allapps.AllAppsSearchBarController;
+import com.literacyapp.android.launcher3.util.ComponentKey;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -102,7 +102,7 @@ public interface LauncherCallbacks {
 
     /**
      * Returning true will immediately result in a call to {@link #setLauncherOverlayView(ViewGroup,
-     * com.android.launcher3.Launcher.LauncherOverlayCallbacks)}.
+     * com.literacyapp.android.launcher3.Launcher.LauncherOverlayCallbacks)}.
      *
      * @return true if this launcher extension will provide an overlay
      */

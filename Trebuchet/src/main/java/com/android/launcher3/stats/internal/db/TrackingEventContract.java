@@ -1,4 +1,4 @@
-package com.android.launcher3.stats.internal.db;
+package com.literacyapp.android.launcher3.stats.internal.db;
 
 import android.provider.BaseColumns;
 

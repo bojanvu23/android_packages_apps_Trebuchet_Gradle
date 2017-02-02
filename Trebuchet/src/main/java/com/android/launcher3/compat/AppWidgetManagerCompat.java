@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.literacyapp.android.launcher3.compat;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHost;
@@ -25,9 +25,9 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.IconCache;
+import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.literacyapp.android.launcher3.Utilities;
 
 import java.util.List;
 

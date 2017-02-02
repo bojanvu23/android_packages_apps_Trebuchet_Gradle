@@ -1,12 +1,12 @@
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.launcher3.allapps.AllAppsGridAdapter;
-import com.android.launcher3.allapps.AlphabeticalAppsList;
+import com.literacyapp.android.launcher3.allapps.AllAppsGridAdapter;
+import com.literacyapp.android.launcher3.allapps.AlphabeticalAppsList;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.literacyapp.android.launcher3.allapps;
 
 import android.os.Handler;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.AppInfo;
+import com.literacyapp.android.launcher3.util.ComponentKey;
 
 import java.util.ArrayList;
 import java.util.List;

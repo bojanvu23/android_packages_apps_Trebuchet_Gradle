@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -42,9 +42,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.FolderInfo.FolderListener;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.DropTarget.DragObject;
+import com.literacyapp.android.launcher3.FolderInfo.FolderListener;
+import com.literacyapp.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 

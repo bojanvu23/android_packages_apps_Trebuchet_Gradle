@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.literacyapp.android.launcher3.util;
 
 import android.annotation.SuppressLint;
 import android.os.Environment;

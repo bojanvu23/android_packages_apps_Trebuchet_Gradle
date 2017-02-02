@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.app.Activity;
 

@@ -1,4 +1,4 @@
-package com.android.launcher3.model;
+package com.literacyapp.android.launcher3.model;
 
 import android.content.ComponentName;
 import android.content.ContentProviderOperation;
@@ -12,19 +12,19 @@ import android.graphics.Point;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.InvariantDeviceProfile;
+import com.literacyapp.android.launcher3.ItemInfo;
+import com.literacyapp.android.launcher3.LauncherAppState;
+import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.literacyapp.android.launcher3.LauncherModel;
+import com.literacyapp.android.launcher3.LauncherProvider;
+import com.literacyapp.android.launcher3.LauncherSettings;
+import com.literacyapp.android.launcher3.LauncherSettings.Favorites;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.compat.PackageInstallerCompat;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.util.LongArrayMap;
+import com.literacyapp.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.Collections;

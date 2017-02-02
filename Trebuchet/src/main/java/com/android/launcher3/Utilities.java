@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -57,7 +57,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.Toast;
 
-import com.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

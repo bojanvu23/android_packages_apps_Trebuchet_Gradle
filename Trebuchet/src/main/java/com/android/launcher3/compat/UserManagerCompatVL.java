@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.literacyapp.android.launcher3.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -25,9 +25,9 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.LongArrayMap;
+import com.literacyapp.android.launcher3.LauncherAppState;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.util.LongArrayMap;
 
 import java.util.ArrayList;
 import java.util.Collections;

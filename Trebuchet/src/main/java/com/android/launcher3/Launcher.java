@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -100,25 +100,25 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.PagedView.PageSwitchListener;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherActivityInfoCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.effects.BaseEffectAnimation;
-import com.android.launcher3.list.SettingsPinnedHeaderAdapter;
-import com.android.launcher3.model.WidgetsModel;
-import com.android.launcher3.settings.SettingsProvider;
-import com.android.launcher3.stats.LauncherStats;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetHostViewLoader;
-import com.android.launcher3.widget.WidgetsContainerView;
+import com.literacyapp.android.launcher3.DropTarget.DragObject;
+import com.literacyapp.android.launcher3.PagedView.PageSwitchListener;
+import com.literacyapp.android.launcher3.allapps.AllAppsContainerView;
+import com.literacyapp.android.launcher3.compat.AppWidgetManagerCompat;
+import com.literacyapp.android.launcher3.compat.LauncherActivityInfoCompat;
+import com.literacyapp.android.launcher3.compat.LauncherAppsCompat;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.compat.UserManagerCompat;
+import com.literacyapp.android.launcher3.effects.BaseEffectAnimation;
+import com.literacyapp.android.launcher3.list.SettingsPinnedHeaderAdapter;
+import com.literacyapp.android.launcher3.model.WidgetsModel;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.stats.LauncherStats;
+import com.literacyapp.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.util.LongArrayMap;
+import com.literacyapp.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.widget.PendingAddWidgetInfo;
+import com.literacyapp.android.launcher3.widget.WidgetHostViewLoader;
+import com.literacyapp.android.launcher3.widget.WidgetsContainerView;
 
 import java.io.File;
 import java.io.FileDescriptor;
@@ -189,7 +189,7 @@ public class Launcher extends Activity
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.android.launcher3.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "com.literacyapp.android.launcher3.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // Type: int
     private static final String RUNTIME_STATE_CURRENT_SCREEN = "launcher.current_screen";
@@ -219,7 +219,7 @@ public class Launcher extends Activity
 
     static final String FIRST_LOAD_COMPLETE = "launcher.first_load_complete";
     static final String ACTION_FIRST_LOAD_COMPLETE =
-            "com.android.launcher3.action.FIRST_LOAD_COMPLETE";
+            "com.literacyapp.android.launcher3.action.FIRST_LOAD_COMPLETE";
 
     public static final String SHOW_WEIGHT_WATCHER = "debug.show_mem";
     public static final boolean SHOW_WEIGHT_WATCHER_DEFAULT = false;
@@ -642,9 +642,9 @@ public class Launcher extends Activity
         }
 
         IntentFilter protectedAppsFilter = new IntentFilter(
-                com.android.launcher3.constants.Intent.ACTION_PROTECTED_CHANGED);
+                com.literacyapp.android.launcher3.constants.Intent.ACTION_PROTECTED_CHANGED);
         registerReceiver(protectedAppsChangedReceiver, protectedAppsFilter,
-                com.android.launcher3.constants.Manifest.permission.PROTECTED_APP, null);
+                com.literacyapp.android.launcher3.constants.Manifest.permission.PROTECTED_APP, null);
 
         IntentFilter searchBarVisibilityFilter = new IntentFilter(
                 SettingsPinnedHeaderAdapter.ACTION_SEARCH_BAR_VISIBILITY_CHANGED);
@@ -5451,6 +5451,6 @@ public class Launcher extends Activity
 }
 
 interface DebugIntents {
-    static final String DELETE_DATABASE = "com.android.launcher3.action.DELETE_DATABASE";
-    static final String MIGRATE_DATABASE = "com.android.launcher3.action.MIGRATE_DATABASE";
+    static final String DELETE_DATABASE = "com.literacyapp.android.launcher3.action.DELETE_DATABASE";
+    static final String MIGRATE_DATABASE = "com.literacyapp.android.launcher3.action.MIGRATE_DATABASE";
 }

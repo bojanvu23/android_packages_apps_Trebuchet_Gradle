@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.ComponentName;
@@ -31,9 +31,9 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import com.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
 
-import com.android.launcher3.allapps.AllAppsContainerView;
+import com.literacyapp.android.launcher3.allapps.AllAppsContainerView;
 
 public class DeviceProfile {
     public final InvariantDeviceProfile inv;

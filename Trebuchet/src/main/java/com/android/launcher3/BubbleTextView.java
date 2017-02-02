@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -38,8 +38,8 @@ import android.view.ViewConfiguration;
 import android.view.ViewParent;
 import android.widget.TextView;
 
-import com.android.launcher3.IconCache.IconLoadRequest;
-import com.android.launcher3.model.PackageItemInfo;
+import com.literacyapp.android.launcher3.IconCache.IconLoadRequest;
+import com.literacyapp.android.launcher3.model.PackageItemInfo;
 
 /**
  * TextView that draws a bubble behind the text. We cannot use a LineBackgroundSpan

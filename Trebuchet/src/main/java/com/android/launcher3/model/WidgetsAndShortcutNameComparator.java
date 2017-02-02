@@ -1,14 +1,14 @@
-package com.android.launcher3.model;
+package com.literacyapp.android.launcher3.model;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.compat.AppWidgetManagerCompat;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.util.ComponentKey;
 
 import java.text.Collator;
 import java.util.Comparator;

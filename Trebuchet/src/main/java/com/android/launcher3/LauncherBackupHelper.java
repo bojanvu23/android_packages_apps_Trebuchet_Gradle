@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.app.backup.BackupDataInputStream;
 import android.app.backup.BackupDataOutput;
@@ -39,21 +39,21 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.backup.BackupProtos;
-import com.android.launcher3.backup.BackupProtos.CheckedMessage;
-import com.android.launcher3.backup.BackupProtos.DeviceProfieData;
-import com.android.launcher3.backup.BackupProtos.Favorite;
-import com.android.launcher3.backup.BackupProtos.Journal;
-import com.android.launcher3.backup.BackupProtos.Key;
-import com.android.launcher3.backup.BackupProtos.Resource;
-import com.android.launcher3.backup.BackupProtos.Screen;
-import com.android.launcher3.backup.BackupProtos.Widget;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.model.MigrateFromRestoreTask;
-import com.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.LauncherSettings.Favorites;
+import com.literacyapp.android.launcher3.LauncherSettings.WorkspaceScreens;
+import com.literacyapp.android.launcher3.backup.BackupProtos;
+import com.literacyapp.android.launcher3.backup.BackupProtos.CheckedMessage;
+import com.literacyapp.android.launcher3.backup.BackupProtos.DeviceProfieData;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Favorite;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Journal;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Key;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Resource;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Screen;
+import com.literacyapp.android.launcher3.backup.BackupProtos.Widget;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.compat.UserManagerCompat;
+import com.literacyapp.android.launcher3.model.MigrateFromRestoreTask;
+import com.literacyapp.android.launcher3.util.Thunk;
 import com.google.protobuf.nano.InvalidProtocolBufferNanoException;
 import com.google.protobuf.nano.MessageNano;
 

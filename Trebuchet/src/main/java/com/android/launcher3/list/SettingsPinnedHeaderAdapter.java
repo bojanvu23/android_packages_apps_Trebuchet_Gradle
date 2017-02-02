@@ -1,4 +1,4 @@
-package com.android.launcher3.list;
+package com.literacyapp.android.launcher3.list;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,14 +15,14 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.OverviewSettingsPanel;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.effects.BaseEffectAnimation;
-import com.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.InvariantDeviceProfile;
+import com.literacyapp.android.launcher3.Launcher;
+import com.literacyapp.android.launcher3.LauncherSettings;
+import com.literacyapp.android.launcher3.OverviewSettingsPanel;
+import com.literacyapp.android.launcher3.R;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.effects.BaseEffectAnimation;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
 
 public class SettingsPinnedHeaderAdapter extends PinnedHeaderListAdapter {
 

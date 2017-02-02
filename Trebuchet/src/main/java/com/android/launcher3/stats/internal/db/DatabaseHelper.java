@@ -1,12 +1,12 @@
-package com.android.launcher3.stats.internal.db;
+package com.literacyapp.android.launcher3.stats.internal.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import com.android.launcher3.stats.internal.model.TrackingEvent;
-import com.android.launcher3.stats.util.Logger;
+import com.literacyapp.android.launcher3.stats.internal.model.TrackingEvent;
+import com.literacyapp.android.launcher3.stats.util.Logger;
 
 import java.util.ArrayList;
 import java.util.List;

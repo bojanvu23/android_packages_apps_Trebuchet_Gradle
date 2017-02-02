@@ -28,7 +28,7 @@
         android:background="@drawable/scrubber_back"
         android:clipToPadding="false">
 
-        <com.android.launcher3.BaseRecyclerViewScrubber
+        <com.literacyapp.android.launcher3.BaseRecyclerViewScrubber
             android:id="@+id/base_scrubber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

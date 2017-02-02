@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.config;
+package com.literacyapp.android.launcher3.config;
 
 public class ProviderConfig {
 
-    public static final String AUTHORITY = "com.android.launcher3.settings".intern();
+    public static final String AUTHORITY = "com.literacyapp.android.launcher3.settings".intern();
 }

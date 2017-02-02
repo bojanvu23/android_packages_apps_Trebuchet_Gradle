@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.android.launcher3.stats.external;
+package com.literacyapp.android.launcher3.stats.external;
 
 import android.os.Bundle;
 import android.text.TextUtils;

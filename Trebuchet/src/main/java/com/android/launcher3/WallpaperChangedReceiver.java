@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
-import com.android.launcher3.stats.LauncherStats;
+import com.literacyapp.android.launcher3.stats.LauncherStats;
 
 public class WallpaperChangedReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent data) {

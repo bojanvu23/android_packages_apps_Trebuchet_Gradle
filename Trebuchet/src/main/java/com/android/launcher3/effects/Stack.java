@@ -1,12 +1,12 @@
-package com.android.launcher3.effects;
+package com.literacyapp.android.launcher3.effects;
 
 import android.animation.TimeInterpolator;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.PagedView;
+import com.literacyapp.android.launcher3.CellLayout;
+import com.literacyapp.android.launcher3.PagedView;
 
 /**
  * Created by lcg on 16-5-3.

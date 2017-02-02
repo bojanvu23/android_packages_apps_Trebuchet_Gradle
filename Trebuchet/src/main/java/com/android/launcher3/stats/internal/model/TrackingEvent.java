@@ -14,16 +14,16 @@
  *  limitations under the License.
  */
 
-package com.android.launcher3.stats.internal.model;
+package com.literacyapp.android.launcher3.stats.internal.model;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import com.android.launcher3.stats.external.TrackingBundle;
-import com.android.launcher3.stats.internal.db.TrackingEventContract;
-import com.android.launcher3.stats.util.Logger;
+import com.literacyapp.android.launcher3.stats.external.TrackingBundle;
+import com.literacyapp.android.launcher3.stats.internal.db.TrackingEventContract;
+import com.literacyapp.android.launcher3.stats.util.Logger;
 
 import java.util.HashMap;
 import java.util.Map;

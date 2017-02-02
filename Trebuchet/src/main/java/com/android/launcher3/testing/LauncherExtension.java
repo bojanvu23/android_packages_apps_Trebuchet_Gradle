@@ -1,4 +1,4 @@
-package com.android.launcher3.testing;
+package com.literacyapp.android.launcher3.testing;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -11,14 +11,14 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherCallbacks;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AllAppsSearchBarController;
-import com.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.AppInfo;
+import com.literacyapp.android.launcher3.InsettableFrameLayout;
+import com.literacyapp.android.launcher3.Launcher;
+import com.literacyapp.android.launcher3.LauncherAnimUtils;
+import com.literacyapp.android.launcher3.LauncherCallbacks;
+import com.literacyapp.android.launcher3.R;
+import com.literacyapp.android.launcher3.allapps.AllAppsSearchBarController;
+import com.literacyapp.android.launcher3.util.ComponentKey;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

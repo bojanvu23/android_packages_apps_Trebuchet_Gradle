@@ -1,9 +1,9 @@
-package com.android.launcher3.effects;
+package com.literacyapp.android.launcher3.effects;
 
 import android.view.View;
 
-import com.android.launcher3.PagedView;
-import com.android.launcher3.util.LogUtil;
+import com.literacyapp.android.launcher3.PagedView;
+import com.literacyapp.android.launcher3.util.LogUtil;
 
 /**
  * Created by lcg on 16-5-3.

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.android.launcher3.stats.internal.model;
+package com.literacyapp.android.launcher3.stats.internal.model;
 
 import android.os.Bundle;
 

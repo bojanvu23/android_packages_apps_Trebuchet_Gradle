@@ -1,5 +1,5 @@
 
-package com.android.launcher3.model;
+package com.literacyapp.android.launcher3.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,17 +12,17 @@ import android.content.Context;
 import android.content.pm.ResolveInfo;
 import android.util.Log;
 
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.ProtectedComponentsHelper;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.AppFilter;
+import com.literacyapp.android.launcher3.IconCache;
+import com.literacyapp.android.launcher3.InvariantDeviceProfile;
+import com.literacyapp.android.launcher3.ItemInfo;
+import com.literacyapp.android.launcher3.LauncherAppState;
+import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.literacyapp.android.launcher3.ProtectedComponentsHelper;
+import com.literacyapp.android.launcher3.Utilities;
+import com.literacyapp.android.launcher3.compat.AlphabeticIndexCompat;
+import com.literacyapp.android.launcher3.compat.AppWidgetManagerCompat;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
 
 /**
  * Widgets data model that is used by the adapters of the widget views and controllers.

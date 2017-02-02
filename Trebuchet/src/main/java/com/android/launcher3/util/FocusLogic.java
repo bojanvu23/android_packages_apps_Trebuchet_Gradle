@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.literacyapp.android.launcher3.util;
 
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.ShortcutAndWidgetContainer;
+import com.literacyapp.android.launcher3.CellLayout;
+import com.literacyapp.android.launcher3.ShortcutAndWidgetContainer;
 
 import java.util.Arrays;
 

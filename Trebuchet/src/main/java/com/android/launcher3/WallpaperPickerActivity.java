@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.animation.LayoutTransition;
 import android.annotation.TargetApi;
@@ -73,8 +73,8 @@ import android.widget.Toast;
 import com.android.gallery3d.common.BitmapCropTask;
 import com.android.gallery3d.common.BitmapUtils;
 import com.android.gallery3d.common.Utils;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.WallpaperUtils;
+import com.literacyapp.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.util.WallpaperUtils;
 import com.android.photos.BitmapRegionTileSource;
 import com.android.photos.BitmapRegionTileSource.BitmapSource;
 import com.android.photos.views.TiledImageRenderer.TileSource;
@@ -1077,8 +1077,8 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
 
     public Pair<ApplicationInfo, Integer> getWallpaperArrayResourceId() {
         // Context.getPackageName() may return the "original" package name,
-        // com.android.launcher3; Resources needs the real package name,
-        // com.android.launcher3. So we ask Resources for what it thinks the
+        // com.literacyapp.android.launcher3; Resources needs the real package name,
+        // com.literacyapp.android.launcher3. So we ask Resources for what it thinks the
         // package name should be.
         final String packageName = getResources().getResourcePackageName(R.array.wallpapers);
         try {

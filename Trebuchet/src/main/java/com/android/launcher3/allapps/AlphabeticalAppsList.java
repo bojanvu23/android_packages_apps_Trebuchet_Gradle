@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.literacyapp.android.launcher3.allapps;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,14 +28,14 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.ProtectedComponentsHelper;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.model.AppNameComparator;
-import com.android.launcher3.util.ComponentKey;
+import com.literacyapp.android.launcher3.AppInfo;
+import com.literacyapp.android.launcher3.Launcher;
+import com.literacyapp.android.launcher3.LauncherAppState;
+import com.literacyapp.android.launcher3.ProtectedComponentsHelper;
+import com.literacyapp.android.launcher3.compat.AlphabeticIndexCompat;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.model.AppNameComparator;
+import com.literacyapp.android.launcher3.util.ComponentKey;
 
 /**
  * The alphabetically sorted list of applications.

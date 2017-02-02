@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.literacyapp.android.launcher3;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -60,22 +60,22 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.widget.TextView;
 
-import com.android.launcher3.FolderIcon.FolderRingAnimator;
-import com.android.launcher3.Launcher.CustomContentCallbacks;
-import com.android.launcher3.Launcher.LauncherOverlay;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.UninstallDropTarget.UninstallSource;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate.AccessibilityDragSource;
-import com.android.launcher3.accessibility.OverviewScreenAccessibilityDelegate;
-import com.android.launcher3.compat.UserHandleCompat;
-import com.android.launcher3.effects.BaseEffectAnimation;
-import com.android.launcher3.settings.SettingsProvider;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.WallpaperUtils;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
+import com.literacyapp.android.launcher3.FolderIcon.FolderRingAnimator;
+import com.literacyapp.android.launcher3.Launcher.CustomContentCallbacks;
+import com.literacyapp.android.launcher3.Launcher.LauncherOverlay;
+import com.literacyapp.android.launcher3.LauncherSettings.Favorites;
+import com.literacyapp.android.launcher3.UninstallDropTarget.UninstallSource;
+import com.literacyapp.android.launcher3.accessibility.LauncherAccessibilityDelegate;
+import com.literacyapp.android.launcher3.accessibility.LauncherAccessibilityDelegate.AccessibilityDragSource;
+import com.literacyapp.android.launcher3.accessibility.OverviewScreenAccessibilityDelegate;
+import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.literacyapp.android.launcher3.effects.BaseEffectAnimation;
+import com.literacyapp.android.launcher3.settings.SettingsProvider;
+import com.literacyapp.android.launcher3.util.LongArrayMap;
+import com.literacyapp.android.launcher3.util.Thunk;
+import com.literacyapp.android.launcher3.util.WallpaperUtils;
+import com.literacyapp.android.launcher3.widget.PendingAddShortcutInfo;
+import com.literacyapp.android.launcher3.widget.PendingAddWidgetInfo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
