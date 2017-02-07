@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -62,19 +62,19 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.literacyapp.android.launcher3.CellLayout.CellInfo;
-import com.literacyapp.android.launcher3.DragController.DragListener;
-import com.literacyapp.android.launcher3.FolderInfo.FolderListener;
-import com.literacyapp.android.launcher3.UninstallDropTarget.UninstallSource;
-import com.literacyapp.android.launcher3.Workspace.ItemOperator;
-import com.literacyapp.android.launcher3.accessibility.LauncherAccessibilityDelegate.AccessibilityDragSource;
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
-import com.literacyapp.android.launcher3.util.Thunk;
-import com.literacyapp.android.launcher3.util.UiThreadCircularReveal;
+import com.android.launcher3.CellLayout.CellInfo;
+import com.android.launcher3.DragController.DragListener;
+import com.android.launcher3.FolderInfo.FolderListener;
+import com.android.launcher3.UninstallDropTarget.UninstallSource;
+import com.android.launcher3.Workspace.ItemOperator;
+import com.android.launcher3.accessibility.LauncherAccessibilityDelegate.AccessibilityDragSource;
+import com.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.util.Thunk;
+import com.android.launcher3.util.UiThreadCircularReveal;
 
-import static com.literacyapp.android.launcher3.constants.Intent.ACTION_PROTECTED;
-import static com.literacyapp.android.launcher3.constants.Intent.EXTRA_PROTECTED_COMPONENTS;
-import static com.literacyapp.android.launcher3.constants.Intent.EXTRA_PROTECTED_STATE;
+import static com.android.launcher3.constants.Intent.ACTION_PROTECTED;
+import static com.android.launcher3.constants.Intent.EXTRA_PROTECTED_COMPONENTS;
+import static com.android.launcher3.constants.Intent.EXTRA_PROTECTED_STATE;
 
 import java.util.ArrayList;
 import java.util.Collections;

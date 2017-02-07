@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
 
-import com.literacyapp.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.literacyapp.android.launcher3.compat.LauncherAppsCompat;
-import com.literacyapp.android.launcher3.compat.PackageInstallerCompat;
-import com.literacyapp.android.launcher3.compat.UserManagerCompat;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
+import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.launcher3.compat.PackageInstallerCompat;
+import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher3.util.Thunk;
 
 import java.lang.ref.WeakReference;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.widget;
+package com.android.launcher3.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -28,26 +28,26 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.literacyapp.android.launcher3.BaseContainerView;
-import com.literacyapp.android.launcher3.BaseRecyclerView;
-import com.literacyapp.android.launcher3.CellLayout;
-import com.literacyapp.android.launcher3.DeleteDropTarget;
-import com.literacyapp.android.launcher3.DeviceProfile;
-import com.literacyapp.android.launcher3.DragController;
-import com.literacyapp.android.launcher3.DragSource;
-import com.literacyapp.android.launcher3.DropTarget.DragObject;
-import com.literacyapp.android.launcher3.Folder;
-import com.literacyapp.android.launcher3.IconCache;
-import com.literacyapp.android.launcher3.ItemInfo;
-import com.literacyapp.android.launcher3.Launcher;
-import com.literacyapp.android.launcher3.LauncherAppState;
-import com.literacyapp.android.launcher3.PendingAddItemInfo;
-import com.literacyapp.android.launcher3.R;
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.WidgetPreviewLoader;
-import com.literacyapp.android.launcher3.Workspace;
-import com.literacyapp.android.launcher3.model.WidgetsModel;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.BaseContainerView;
+import com.android.launcher3.BaseRecyclerView;
+import com.android.launcher3.CellLayout;
+import com.android.launcher3.DeleteDropTarget;
+import com.android.launcher3.DeviceProfile;
+import com.android.launcher3.DragController;
+import com.android.launcher3.DragSource;
+import com.android.launcher3.DropTarget.DragObject;
+import com.android.launcher3.Folder;
+import com.android.launcher3.IconCache;
+import com.android.launcher3.ItemInfo;
+import com.android.launcher3.Launcher;
+import com.android.launcher3.LauncherAppState;
+import com.android.launcher3.PendingAddItemInfo;
+import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.WidgetPreviewLoader;
+import com.android.launcher3.Workspace;
+import com.android.launcher3.model.WidgetsModel;
+import com.android.launcher3.util.Thunk;
 
 /**
  * The widgets list view container.

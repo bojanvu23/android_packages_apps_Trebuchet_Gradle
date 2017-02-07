@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.widget;
+package com.android.launcher3.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -29,16 +29,16 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.LinearLayout;
 
-import com.literacyapp.android.launcher3.BubbleTextView;
-import com.literacyapp.android.launcher3.DeviceProfile;
-import com.literacyapp.android.launcher3.Launcher;
-import com.literacyapp.android.launcher3.LauncherAppState;
-import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.literacyapp.android.launcher3.R;
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.WidgetPreviewLoader;
-import com.literacyapp.android.launcher3.model.PackageItemInfo;
-import com.literacyapp.android.launcher3.model.WidgetsModel;
+import com.android.launcher3.BubbleTextView;
+import com.android.launcher3.DeviceProfile;
+import com.android.launcher3.Launcher;
+import com.android.launcher3.LauncherAppState;
+import com.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.WidgetPreviewLoader;
+import com.android.launcher3.model.PackageItemInfo;
+import com.android.launcher3.model.WidgetsModel;
 
 import java.util.List;
 

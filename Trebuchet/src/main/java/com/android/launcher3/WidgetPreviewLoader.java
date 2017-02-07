@@ -1,4 +1,4 @@
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -28,12 +28,12 @@ import android.os.Handler;
 import android.util.Log;
 import android.util.LongSparseArray;
 
-import com.literacyapp.android.launcher3.compat.AppWidgetManagerCompat;
-import com.literacyapp.android.launcher3.compat.UserHandleCompat;
-import com.literacyapp.android.launcher3.compat.UserManagerCompat;
-import com.literacyapp.android.launcher3.util.ComponentKey;
-import com.literacyapp.android.launcher3.util.Thunk;
-import com.literacyapp.android.launcher3.widget.WidgetCell;
+import com.android.launcher3.compat.AppWidgetManagerCompat;
+import com.android.launcher3.compat.UserHandleCompat;
+import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher3.util.ComponentKey;
+import com.android.launcher3.util.Thunk;
+import com.android.launcher3.widget.WidgetCell;
 
 import java.util.ArrayList;
 import java.util.Collections;

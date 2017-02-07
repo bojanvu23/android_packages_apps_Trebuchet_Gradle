@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.allapps;
+package com.android.launcher3.allapps;
 
 import android.content.Context;
 import android.text.Editable;
@@ -25,10 +25,10 @@ import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
-import com.literacyapp.android.launcher3.ExtendedEditText;
-import com.literacyapp.android.launcher3.R;
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.ExtendedEditText;
+import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.util.Thunk;
 
 import java.util.List;
 

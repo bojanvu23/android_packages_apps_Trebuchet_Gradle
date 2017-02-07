@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.stats.util;
+package com.android.launcher3.stats.util;
 
 import android.text.TextUtils;
 import android.util.Log;

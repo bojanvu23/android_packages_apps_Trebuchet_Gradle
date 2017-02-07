@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.allapps;
+package com.android.launcher3.allapps;
 
 import android.content.Context;
 import android.content.Intent;
@@ -36,16 +36,16 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
-import com.literacyapp.android.launcher3.AppInfo;
-import com.literacyapp.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusApplicator;
-import com.literacyapp.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusable;
-import com.literacyapp.android.launcher3.BubbleTextView;
-import com.literacyapp.android.launcher3.Launcher;
-import com.literacyapp.android.launcher3.R;
-import com.literacyapp.android.launcher3.RemoteFolderManager;
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.AppInfo;
+import com.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusApplicator;
+import com.android.launcher3.BaseRecyclerViewFastScrollBar.FastScrollFocusable;
+import com.android.launcher3.BubbleTextView;
+import com.android.launcher3.Launcher;
+import com.android.launcher3.R;
+import com.android.launcher3.RemoteFolderManager;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.util.Thunk;
 
 import java.util.HashMap;
 import java.util.List;

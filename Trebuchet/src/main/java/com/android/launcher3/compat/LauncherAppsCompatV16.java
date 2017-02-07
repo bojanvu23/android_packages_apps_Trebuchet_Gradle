@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.compat;
+package com.android.launcher3.compat;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -30,8 +30,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.List;

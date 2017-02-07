@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.compat;
+package com.android.launcher3.compat;
 
 import android.graphics.drawable.Drawable;
 

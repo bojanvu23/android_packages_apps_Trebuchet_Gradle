@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -34,7 +34,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.inputmethod.InputMethodManager;
 
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.HashSet;

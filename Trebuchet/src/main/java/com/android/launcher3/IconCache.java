@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -42,13 +42,13 @@ import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.literacyapp.android.launcher3.compat.LauncherActivityInfoCompat;
-import com.literacyapp.android.launcher3.compat.LauncherAppsCompat;
-import com.literacyapp.android.launcher3.compat.UserHandleCompat;
-import com.literacyapp.android.launcher3.compat.UserManagerCompat;
-import com.literacyapp.android.launcher3.model.PackageItemInfo;
-import com.literacyapp.android.launcher3.util.ComponentKey;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.compat.LauncherActivityInfoCompat;
+import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.launcher3.compat.UserHandleCompat;
+import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher3.model.PackageItemInfo;
+import com.android.launcher3.util.ComponentKey;
+import com.android.launcher3.util.Thunk;
 
 import java.util.Collections;
 import java.util.HashMap;

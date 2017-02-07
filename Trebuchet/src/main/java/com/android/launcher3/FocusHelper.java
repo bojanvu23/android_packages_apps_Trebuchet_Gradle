@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.util.Log;
 import android.view.KeyEvent;
@@ -22,8 +22,8 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.literacyapp.android.launcher3.util.FocusLogic;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.util.FocusLogic;
+import com.android.launcher3.util.Thunk;
 
 /**
  * A keyboard listener we set on all the workspace icons.

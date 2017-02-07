@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -31,9 +31,9 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.literacyapp.android.launcher3.effects.BaseEffectAnimation;
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
-import com.literacyapp.android.launcher3.util.LogUtil;
+import com.android.launcher3.effects.BaseEffectAnimation;
+import com.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.util.LogUtil;
 
 public class EffectSettingFragment extends Fragment {
 

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.stats;
+package com.android.launcher3.stats;
 
 import android.content.Context;
 import android.os.Handler;
@@ -22,8 +22,8 @@ import android.os.HandlerThread;
 import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
-import com.literacyapp.android.launcher3.stats.internal.db.DatabaseHelper;
-import com.literacyapp.android.launcher3.stats.internal.model.TrackingEvent;
+import com.android.launcher3.stats.internal.db.DatabaseHelper;
+import com.android.launcher3.stats.internal.model.TrackingEvent;
 
 /**
  * <pre>

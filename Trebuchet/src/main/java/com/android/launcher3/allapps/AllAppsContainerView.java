@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.allapps;
+package com.android.launcher3.allapps;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -33,24 +33,24 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import com.literacyapp.android.launcher3.AppInfo;
-import com.literacyapp.android.launcher3.BaseContainerView;
-import com.literacyapp.android.launcher3.BaseRecyclerView;
-import com.literacyapp.android.launcher3.CellLayout;
-import com.literacyapp.android.launcher3.DeleteDropTarget;
-import com.literacyapp.android.launcher3.DeviceProfile;
-import com.literacyapp.android.launcher3.DragSource;
-import com.literacyapp.android.launcher3.DropTarget;
-import com.literacyapp.android.launcher3.Folder;
-import com.literacyapp.android.launcher3.ItemInfo;
-import com.literacyapp.android.launcher3.Launcher;
-import com.literacyapp.android.launcher3.LauncherTransitionable;
-import com.literacyapp.android.launcher3.R;
-import com.literacyapp.android.launcher3.Utilities;
-import com.literacyapp.android.launcher3.Workspace;
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
-import com.literacyapp.android.launcher3.util.ComponentKey;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.AppInfo;
+import com.android.launcher3.BaseContainerView;
+import com.android.launcher3.BaseRecyclerView;
+import com.android.launcher3.CellLayout;
+import com.android.launcher3.DeleteDropTarget;
+import com.android.launcher3.DeviceProfile;
+import com.android.launcher3.DragSource;
+import com.android.launcher3.DropTarget;
+import com.android.launcher3.Folder;
+import com.android.launcher3.ItemInfo;
+import com.android.launcher3.Launcher;
+import com.android.launcher3.LauncherTransitionable;
+import com.android.launcher3.R;
+import com.android.launcher3.Utilities;
+import com.android.launcher3.Workspace;
+import com.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.util.ComponentKey;
+import com.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.List;

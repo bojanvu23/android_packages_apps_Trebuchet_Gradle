@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.compat;
+package com.android.launcher3.compat;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,7 +25,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.Rect;
 import android.os.Bundle;
 
-import com.literacyapp.android.launcher3.Utilities;
+import com.android.launcher3.Utilities;
 
 import java.util.List;
 

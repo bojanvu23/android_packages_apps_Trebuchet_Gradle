@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.literacyapp.android.launcher3.SearchDropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.launcher3.SearchDropTargetBar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="false">
@@ -32,7 +32,7 @@
 
             <!-- Delete target -->
 
-            <com.literacyapp.android.launcher3.DeleteDropTarget
+            <com.android.launcher3.DeleteDropTarget
                 android:id="@+id/delete_target_text"
                 style="@style/DropTargetButton"
                 android:text="@string/delete_target_label" />
@@ -45,7 +45,7 @@
 
             <!-- Info target -->
 
-            <com.literacyapp.android.launcher3.InfoDropTarget
+            <com.android.launcher3.InfoDropTarget
                 android:id="@+id/info_target_text"
                 style="@style/DropTargetButton"
                 android:text="@string/info_target_label"
@@ -59,7 +59,7 @@
 
             <!-- Uninstall target -->
 
-            <com.literacyapp.android.launcher3.UninstallDropTarget
+            <com.android.launcher3.UninstallDropTarget
                 android:id="@+id/uninstall_target_text"
                 style="@style/DropTargetButton"
                 android:text="@string/delete_target_uninstall_label"
@@ -67,4 +67,4 @@
         </FrameLayout>
     </LinearLayout>
 
-</com.literacyapp.android.launcher3.SearchDropTargetBar>
+</com.android.launcher3.SearchDropTargetBar>

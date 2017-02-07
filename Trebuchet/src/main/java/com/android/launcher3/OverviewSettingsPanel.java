@@ -1,12 +1,12 @@
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.widget.ListView;
 
-import com.literacyapp.android.launcher3.list.PinnedHeaderListView;
-import com.literacyapp.android.launcher3.list.SettingsPinnedHeaderAdapter;
+import com.android.launcher3.list.PinnedHeaderListView;
+import com.android.launcher3.list.SettingsPinnedHeaderAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.annotation.TargetApi;
 import android.appwidget.AppWidgetHost;
@@ -49,13 +49,13 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
 
-import com.literacyapp.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
-import com.literacyapp.android.launcher3.LauncherSettings.Favorites;
-import com.literacyapp.android.launcher3.compat.UserHandleCompat;
-import com.literacyapp.android.launcher3.compat.UserManagerCompat;
-import com.literacyapp.android.launcher3.config.ProviderConfig;
-import com.literacyapp.android.launcher3.util.ManagedProfileHeuristic;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
+import com.android.launcher3.LauncherSettings.Favorites;
+import com.android.launcher3.compat.UserHandleCompat;
+import com.android.launcher3.compat.UserManagerCompat;
+import com.android.launcher3.config.ProviderConfig;
+import com.android.launcher3.util.ManagedProfileHeuristic;
+import com.android.launcher3.util.Thunk;
 
 import java.io.File;
 import java.net.URISyntaxException;

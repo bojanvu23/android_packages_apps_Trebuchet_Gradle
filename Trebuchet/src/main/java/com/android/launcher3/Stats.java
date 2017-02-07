@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -79,7 +79,7 @@ public class Stats {
 
     private static final boolean DEBUG_BROADCASTS = false;
 
-    public static final String ACTION_LAUNCH = "com.literacyapp.android.launcher3.action.LAUNCH";
+    public static final String ACTION_LAUNCH = "com.android.launcher3.action.LAUNCH";
     public static final String EXTRA_INTENT = "intent";
     public static final String EXTRA_CONTAINER = "container";
     public static final String EXTRA_SCREEN = "screen";

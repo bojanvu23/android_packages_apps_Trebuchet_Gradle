@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.animation.AnimatorSet;
 import android.animation.FloatArrayEvaluator;
@@ -38,7 +38,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
 
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.util.Thunk;
 
 /**
  * Implements a DropTarget.

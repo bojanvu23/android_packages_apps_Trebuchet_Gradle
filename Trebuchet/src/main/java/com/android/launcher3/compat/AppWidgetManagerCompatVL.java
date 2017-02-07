@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.compat;
+package com.android.launcher3.compat;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -37,9 +37,9 @@ import android.os.UserManager;
 import android.view.View;
 import android.widget.Toast;
 
-import com.literacyapp.android.launcher3.IconCache;
-import com.literacyapp.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.literacyapp.android.launcher3.R;
+import com.android.launcher3.IconCache;
+import com.android.launcher3.LauncherAppWidgetProviderInfo;
+import com.android.launcher3.R;
 
 import java.util.ArrayList;
 import java.util.List;

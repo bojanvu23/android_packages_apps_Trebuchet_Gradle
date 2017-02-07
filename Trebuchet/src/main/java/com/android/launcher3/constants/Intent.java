@@ -1,4 +1,4 @@
-package com.literacyapp.android.launcher3.constants;
+package com.android.launcher3.constants;
 
 public class Intent {
     public static final String ACTION_RECENTS_LONG_PRESS = "cyanogenmod.intent.action.RECENTS_LONG_PRESS";

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.stats.internal.service;
+package com.android.launcher3.stats.internal.service;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
@@ -29,16 +29,16 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.literacyapp.android.launcher3.LauncherAppState;
-import com.literacyapp.android.launcher3.stats.external.StatsUtil;
-import com.literacyapp.android.launcher3.stats.external.TrackingBundle;
-import com.literacyapp.android.launcher3.stats.internal.db.DatabaseHelper;
-import com.literacyapp.android.launcher3.stats.internal.model.CountAction;
-import com.literacyapp.android.launcher3.stats.internal.model.CountOriginByPackageAction;
-import com.literacyapp.android.launcher3.stats.internal.model.ITrackingAction;
-import com.literacyapp.android.launcher3.stats.internal.model.RemoteFolderAction;
-import com.literacyapp.android.launcher3.stats.internal.model.TrackingEvent;
-import com.literacyapp.android.launcher3.stats.util.Logger;
+import com.android.launcher3.LauncherAppState;
+import com.android.launcher3.stats.external.StatsUtil;
+import com.android.launcher3.stats.external.TrackingBundle;
+import com.android.launcher3.stats.internal.db.DatabaseHelper;
+import com.android.launcher3.stats.internal.model.CountAction;
+import com.android.launcher3.stats.internal.model.CountOriginByPackageAction;
+import com.android.launcher3.stats.internal.model.ITrackingAction;
+import com.android.launcher3.stats.internal.model.RemoteFolderAction;
+import com.android.launcher3.stats.internal.model.TrackingEvent;
+import com.android.launcher3.stats.util.Logger;
 
 import java.util.ArrayList;
 import java.util.List;

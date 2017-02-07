@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.stats.external;
+package com.android.launcher3.stats.external;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
-import com.literacyapp.android.launcher3.stats.util.Logger;
+import com.android.launcher3.stats.util.Logger;
 
 /**
  * StatsUtil

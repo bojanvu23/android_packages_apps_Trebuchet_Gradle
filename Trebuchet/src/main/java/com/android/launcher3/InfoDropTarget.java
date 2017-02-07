@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.literacyapp.android.launcher3.compat.UserHandleCompat;
+import com.android.launcher3.compat.UserHandleCompat;
 
 public class InfoDropTarget extends ButtonDropTarget {
 

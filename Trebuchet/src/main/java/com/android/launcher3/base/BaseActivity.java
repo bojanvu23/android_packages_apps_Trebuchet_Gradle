@@ -1,4 +1,4 @@
-package com.literacyapp.android.launcher3.base;
+package com.android.launcher3.base;
 
 import android.app.Activity;
 import android.content.Context;

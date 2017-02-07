@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;
@@ -26,7 +26,7 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.RemoteViews;
 
-import com.literacyapp.android.launcher3.DragLayer.TouchCompleteListener;
+import com.android.launcher3.DragLayer.TouchCompleteListener;
 
 /**
  * {@inheritDoc}

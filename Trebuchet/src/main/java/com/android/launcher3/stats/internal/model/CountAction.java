@@ -14,11 +14,11 @@
  *  limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.stats.internal.model;
+package com.android.launcher3.stats.internal.model;
 
 import android.os.Bundle;
 import android.text.TextUtils;
-import com.literacyapp.android.launcher3.stats.external.TrackingBundle;
+import com.android.launcher3.stats.external.TrackingBundle;
 
 import java.util.ArrayList;
 import java.util.HashMap;

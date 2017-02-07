@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.Collections;

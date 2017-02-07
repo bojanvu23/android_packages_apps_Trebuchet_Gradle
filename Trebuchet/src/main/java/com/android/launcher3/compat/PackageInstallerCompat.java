@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3.compat;
+package com.android.launcher3.compat;
 
 import android.content.Context;
 
-import com.literacyapp.android.launcher3.Utilities;
+import com.android.launcher3.Utilities;
 
 import java.util.HashMap;
 

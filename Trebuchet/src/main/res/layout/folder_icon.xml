@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.literacyapp.android.launcher3.FolderIcon
+<com.android.launcher3.FolderIcon
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -63,10 +63,10 @@
             android:antialias="true"/>
     </RelativeLayout>
 
-    <com.literacyapp.android.launcher3.BubbleTextView
+    <com.android.launcher3.BubbleTextView
         style="@style/Icon"
         android:id="@+id/folder_icon_name"
         android:layout_gravity="bottom"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</com.literacyapp.android.launcher3.FolderIcon>
+</com.android.launcher3.FolderIcon>

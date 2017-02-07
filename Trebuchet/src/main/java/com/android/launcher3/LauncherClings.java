@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
@@ -35,7 +35,7 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.accessibility.AccessibilityManager;
 
-import com.literacyapp.android.launcher3.util.Thunk;
+import com.android.launcher3.util.Thunk;
 
 class LauncherClings implements OnClickListener {
     private static final String MIGRATION_CLING_DISMISSED_KEY = "cling_gel.migration.dismissed";

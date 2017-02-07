@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.allapps;
+package com.android.launcher3.allapps;
 
 import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.literacyapp.android.launcher3.util.ComponentKey;
+import com.android.launcher3.util.ComponentKey;
 
 import java.util.ArrayList;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.literacyapp.android.launcher3.list;
+package com.android.launcher3.list;
 
 import android.content.Context;
 import android.database.Cursor;

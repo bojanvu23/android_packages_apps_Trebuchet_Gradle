@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.app.Application;
 
-import com.literacyapp.android.launcher3.stats.LauncherStats;
-import com.literacyapp.android.launcher3.stats.internal.service.AggregationIntentService;
+import com.android.launcher3.stats.LauncherStats;
+import com.android.launcher3.stats.internal.service.AggregationIntentService;
 import com.squareup.leakcanary.LeakCanary;
 
 public class LauncherApplication extends Application {

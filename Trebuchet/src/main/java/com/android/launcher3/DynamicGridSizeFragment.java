@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.literacyapp.android.launcher3;
+package com.android.launcher3;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,7 +43,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
-import com.literacyapp.android.launcher3.settings.SettingsProvider;
+import com.android.launcher3.settings.SettingsProvider;
 
 public class DynamicGridSizeFragment extends Fragment
         implements NumberPicker.OnValueChangeListener, Dialog.OnDismissListener {
