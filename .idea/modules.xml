@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Trebuchet/Trebuchet.iml" filepath="$PROJECT_DIR$/Trebuchet/Trebuchet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trebuchet.iml" filepath="$PROJECT_DIR$/Trebuchet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trebuchet/Trebuchet-Trebuchet.iml" filepath="$PROJECT_DIR$/Trebuchet/Trebuchet-Trebuchet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_packages_apps_Trebuchet_Gradle.iml" filepath="$PROJECT_DIR$/android_packages_apps_Trebuchet_Gradle.iml" />
+    </modules>
+  </component>
+</project>
