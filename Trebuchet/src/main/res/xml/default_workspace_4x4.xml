@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/  com.lite.android.launcher3">
     <!-- Far-left screen [0] -->
 
     <!-- Left screen [1] -->
@@ -130,8 +130,8 @@
             launcher:packageName="com.cyngn.gallerynext"
             launcher:className="com.cyngn.gallerynext.app.GalleryActivity" />
         <favorite
-            launcher:packageName="com.android.gallery3d"
-            launcher:className="com.android.gallery3d.app.GalleryActivity" />
+            launcher:packageName="com.lite.android.gallery3d"
+            launcher:className="com.lite.android.gallery3d.app.GalleryActivity" />
     </resolve>
 
     <favorite

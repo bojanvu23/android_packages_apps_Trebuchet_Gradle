@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.widget.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.lite.android.launcher3.widget.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="48dp"
@@ -41,8 +41,8 @@
         android:ellipsize="marquee"
         android:fadingEdge="horizontal" />
 
-    <com.android.launcher3.widget.InertCheckBox android:id="@+id/checkbox"
+    <com.lite.android.launcher3.widget.InertCheckBox android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</com.android.launcher3.widget.CheckableLinearLayout>
+</com.lite.android.launcher3.widget.CheckableLinearLayout>

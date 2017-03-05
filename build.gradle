@@ -24,7 +24,7 @@ allprojects {
 }
 
 ext.deps = [
-        androidSupport       : '23.4.0',
+        androidSupport       : '23.0.1',
 ]
 
 
