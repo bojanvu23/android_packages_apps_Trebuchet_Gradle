@@ -62,24 +62,4 @@
   <string name="search_activity_not_found">无法找到搜索活动！</string>
   <!-- App not available toast text -->
   <string name="app_not_available">应用不可用</string>
-  <string name="workspace_anim">桌面动画</string>
-  <string name="allow_remote_folder">远程文件夹</string>
-
-  <!-- Effect -->
-  <string name="launcher_effect">桌面动画</string>
-  <string name="effect_none">无</string>
-  <string name="effect_zoom_in">放大</string>
-  <string name="effect_zoom_out">缩小</string>
-  <string name="effect_rotate_up">上旋</string>
-  <string name="effect_rotate_down">下旋</string>
-  <string name="effect_cube_in">凹立方</string>
-  <string name="effect_cube_out">凸立方</string>
-  <string name="effect_stack">堆叠</string>
-  <string name="effect_accordion">折叠</string>
-  <string name="effect_flip">翻转</string>
-  <string name="effect_cylinder_in">凹棱柱</string>
-  <string name="effect_cylinder_out">凸棱柱</string>
-  <string name="effect_carousel">转轴</string>
-  <string name="effect_overview">缩放</string>
-  <string name="effect_cross">交叉</string>
 </resources>
