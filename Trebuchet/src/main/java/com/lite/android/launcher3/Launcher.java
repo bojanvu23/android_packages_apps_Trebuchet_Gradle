@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package   com.lite.android.launcher3;
+package com.lite.android.launcher3;
 
 import android.Manifest;
 import android.animation.Animator;
